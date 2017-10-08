@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <input id="firstname" onkeyup="validate();">
-        <input id="lastname" onkeyup="validate();">
-    </form>
+    <!-- <input id="firstname" onkeyup="validate();">
+    <input id="lastname" onkeyup="validate();"> -->
+    <input id="shoppingListInput" type="text">
+    <button id="listButton" onclick="displayShoppingItems();">Add</button>
 
-    <p id="inputPreview"></p>
+    <ul id="shoppingList"></ul>
 
     <script src="custom.js"></script>
 </body>
