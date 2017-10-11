@@ -15,6 +15,7 @@
 //     // console.log(myArray);
 // });
 
+// remember const
 const shoppingItems = [];
 
 function displayShoppingItems() {
